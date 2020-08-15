@@ -89,11 +89,11 @@ nav{
 	top: 50%;
 	transform: translate(-20%,-50%);
 }
-.name p:nth-child(1),.name .details{
+.A1name p:nth-child(1),.A1name .details{
 	color:#6c707c;
-	font-size: 16px;
+	font-size: 36px;
 }
-.name h1{
+.A1name h1{
 	font-family:Poppins;
 	font-size: 40px;
 	margin:0px;
@@ -1308,7 +1308,7 @@ input:-webkit-autofill {
     overflow-x: hidden;
     bottom: 0;
   }
-  h1 {
+  h2 {
     font-size: 300%;
   }
   .icon:hover::before {
