@@ -869,8 +869,19 @@ width: 100%;
 	}
 	.about-text h1 {
 		font-size: 3rem;
-	
+		
  }
+
+ 
+.A1name{
+	font-family: calibri;
+	width: 500px;
+	font-weight: 500;
+	position: absolute;
+	left: 17%;
+	top: 40%;
+	transform: translate(-20%,-80%);
+}
 }
 
 
