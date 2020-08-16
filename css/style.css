@@ -13,6 +13,9 @@ body{
 	background-color:#161616;
 		
 }
+
+
+
 ul{
 	list-style:none;
 }
@@ -674,8 +677,8 @@ width: 100%;
 }
 @media(max-width:970px){
 	#main{
-		background-image: none !important;
-		
+		background-size: 800px !important;
+	
 	}
 	.name{
 		left: 50%;
@@ -944,7 +947,7 @@ width: 100%;
 	letter-spacing: 0.1rem;
 	text-align: center;
 	overflow: hidden;
-	width: 60%;
+	width: 250px;
 	
 }
 .containerx p span.typed-textx {
