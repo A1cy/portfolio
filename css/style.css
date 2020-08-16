@@ -677,7 +677,7 @@ width: 100%;
 }
 @media(max-width:970px){
 	#main{
-		background-size: 800px !important;
+		background-size: 700px !important;
 	
 	}
 	.name{
@@ -942,12 +942,12 @@ width: 100%;
 }
 .containerx p {
 	font-size: 2.0rem !important;
-	padding: 0.9rem;
+	padding: 1.4rem;
 	font-weight: bold !important;
 	letter-spacing: 0.1rem;
 	text-align: center;
 	overflow: hidden;
-	width: 250px;
+	width: 270px;
 	
 }
 .containerx p span.typed-textx {
@@ -1070,10 +1070,10 @@ footer p:nth-child(2) {
     margin: 9px;
     line-height: 0px;
     background-color: #ffffff;
-    border: 1px solid #cbcbcb;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border: 0.5px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.100);
     /* border: 50px; */
-    border-radius: 9px;
+    border-radius: 6px;
 }
 .a-social-b i {
   color: #2b2b2b;
