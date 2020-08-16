@@ -869,7 +869,7 @@ width: 100%;
 	}
 	.about-text h1 {
 		font-size: 3rem;
-		
+		display: block; 
  }
 
  
