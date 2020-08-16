@@ -178,13 +178,20 @@ nav{
 	font-size: 5.3rem !important;
 	width: 500px;
 }
+h5{
+	
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	background: -wibkit-linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
 .about-text h4{
 	font-size: 2rem !important;
 	color:#FFFFFF;
 	font-weight: 400;
 }
 .about-text h5,h4{
-	margin: 0px;
+	margin: 5px !important;
 	padding: 0px;
 }
 .about-text p{
@@ -904,9 +911,7 @@ width: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size:7rem;
-  letter-spacing:10px;
   background-size:cover;
-  margin:0px;
   color:transparent;
 }
 
@@ -931,7 +936,6 @@ width: 100%;
   -webkit-text-fill-color: transparent;
 	font-size:1rem;
 	font-weight: bold;
-	font-style: ;
   letter-spacing:2px;
   background-size:cover;
   margin:0px;
