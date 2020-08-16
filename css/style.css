@@ -149,8 +149,8 @@ nav{
 
 }
 .social i{
-	color:rgba(18,17,17,0.40);
-	font-size: 14px;
+	color: rgba(0, 0, 0, 0.603);
+	font-size: 18px;
 }
 .social a:hover i{
 	color:#9481ff;
@@ -871,16 +871,19 @@ width: 100%;
 		display: block; 
  }
 
- 
 .A1name{
 	font-family: calibri;
-	width: 500px;
+	width: 450px !important;
 	font-weight: 500;
 	position: absolute;
 	left: 17%;
 	top: 40%;
-	transform: translate(-20%,-80%);
-}
+	transform: translate(-20%,-65%);
+	 }
+	 
+.containerx p {
+	width: 350px !important;
+ }
 }
 
 
@@ -961,7 +964,7 @@ width: 100%;
 	letter-spacing: 0.1rem;
 	text-align: center;
 	overflow: hidden;
-	width: 270px;
+	width: 470px;
 	
 }
 .containerx p span.typed-textx {
