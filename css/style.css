@@ -14,6 +14,9 @@ body{
 		
 }
 
+.logo img {
+	height: 50px;
+}
 
 
 ul{
@@ -68,10 +71,7 @@ nav{
 	color:#292929;
 }
 .logo{
-	font-size: 25px;
-	font-weight: bold;
-	color:#292929;
-	font-family:Poppins;
+	width: 100px;
 }
 .toggle{
 	display: none;
