@@ -74,7 +74,7 @@
 		<section id="about">
 	<!--text---------------------->
 	<div class="about-text">
-	<h5 style="coloring">About Me</h5>
+	<h5 >About Me</h5>
 	<h4>FreeLancing Web Developer  /  Designer</h4>
 	<p>
 		my name is abdulhadi. a freelance front-end developer & designer <br>
@@ -86,7 +86,7 @@
 	</div>
 	<!--about-model----------------->
 	<div class="about-model">
-	<img src="images/A1-model.png" alt="model"/>	
+	<img src="images/A1-modelv2.png" alt="model"/>	
 	</div>
 	
 	
@@ -272,16 +272,20 @@
 	
 
 
-
-
-
+<div id="contact-btn">
+	<div class='text'>
+		<div class='content'></div>
+		<div class='dash'></div>
+	</div>
+</div>
 
 	<!--Contact-btn------------------>
 	<section id="contact-btn">
 	<!--heading-------------->
-	<h1 class="c-b-heading">If You Have Any Project In Your Mind ?</h1>
-	<p>I'm currently available for hire also freelance work.
-		If you have a project that you want to get started with, think you need help with something or just fancy saying hey, then get in touch.</p>
+	
+
+	<div class="c-b-heading"> </div>
+	
 	</section>
 
 	<!--contact-form------------------->
@@ -349,12 +353,15 @@
 
 
 
-
-
-
-
 	<script type="text/javascript" src="js/JQuery3.3.1.js"></script>
 	<script type="text/javascript">
+
+
+
+
+
+
+
 
 
 
@@ -382,17 +389,40 @@ $(".btn-with-icon").on("click", function() {
 	 })
  });
 
- 
+ (function () {
+  var app;
 
- $(function(){
-    $("#flip").click(function(e){
-    e.preventDefault();
-        $("#panel").slideToggle();
-         $('html, body').animate({
-        scrollTop: 10000
-    }, 2500);
-    });
-});
+  $(document).ready(function () {
+    return app.init();
+  });
+
+  app = {
+    text: "I'm currently available for hire also a freelance work.If you have a project that you want to get started with, think you need help with something or just fancy saying hey, then get in touch.",
+    index: 0,
+    chars: 0,
+    speed: 100,
+    container: ".text .content",
+    init: function () {
+      this.chars = this.text.length;
+      return this.write();
+    },
+    write: function () {
+      $(this.container).append(this.text[this.index]);
+      if (this.index < this.chars) {
+        this.index++;
+        return window.setTimeout(function () {
+          return app.write();
+        }, this.speed);
+      }
+    } };
+
+
+}).call(this);
+
+
+//# sourceURL=coffeescript
+
+
 	</script>
 </body>
 </html>
