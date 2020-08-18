@@ -49,7 +49,7 @@ nav{
 	left: 0;
 	width:100%;
 	box-sizing: border-box;
-	padding: 4px 25px;
+	padding: 0px 25px;
 	background-color:#F4F7FF;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
 	z-index: 1;
@@ -188,8 +188,7 @@ h5{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-top: 40px ;
-	
+padding: 60px 2% 20px 2%;;	
 	
 }
 
@@ -665,6 +664,10 @@ width: 100%;
 
 	
 	}
+	
+	.A1features #scene {
+		width: 800px;
+	}
 	.name{
 		left: 50%;
 		top: 50%;
@@ -689,8 +692,15 @@ width: 100%;
 		width:100%;
 	
 	}
+
 }
 @media(max-width:900px){
+
+
+	.A1features #scene {
+		width: 700px !important;
+	}
+
 	.toggle{
 			display:block;
 		}
@@ -811,6 +821,11 @@ width: 100%;
 
 @media(max-width:600px){
 
+	
+	.A1features #scene {
+		width: 351px !important;
+	}
+
 		#main {
 			background-size: 1000px !important;
 	
@@ -845,15 +860,21 @@ width: 100%;
 @media(max-width:400px){
 	#main {
 		background-size: 1000px !important;
-
-
+	}
+	.p-container-crt {
+    width: 90%;
+   
+  .A1features #scene {
+		width: 281px !important;
+		height:300px !important ;
+	}
 	}
 	.s-box{
 		width: 100%;
 		height:400px;
 	}
 	.about-text h5 {
-		font-size: 3.3rem !important;
+		font-size: 4.3rem !important;
 		display: block; 
  }
 
@@ -1142,7 +1163,18 @@ footer p:nth-child(2) {
 
 /*---------------featurs-------------------*/
 
-
+#features{
+	
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	font-family: calibri;
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	justify-content: center;
+padding: 60px 2% 20px 2%;;
+}
 
 @-webkit-keyframes slidein {
   0% {
@@ -1185,14 +1217,14 @@ footer p:nth-child(2) {
   }
 }
 .A1features {
-	
 	height: 60.5vh;
-  background: #eee;
   font-family: "Tahoma";
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+	user-select: none;
+	border-radius: 9px;
+	position: relative;
 }
 .A1features #scene {
   display: -webkit-box;
@@ -1201,7 +1233,7 @@ footer p:nth-child(2) {
           align-items: center;
   -webkit-box-pack: left;
           justify-content: left;
-  width: 1000px;
+  width: 900px;
   height: 400px;
   position: absolute;
   left: 0;
@@ -1209,7 +1241,11 @@ footer p:nth-child(2) {
   margin: auto;
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  overflow: hidden;
+	overflow: hidden;
+	
+	border-radius: 10px !important;
+	box-shadow: 2px 2px 13px rgba(0,0,0,0.3);
+	position: relative;
 }
 .A1features #scene #left-zone {
   background: #fff;
@@ -1261,7 +1297,7 @@ footer p:nth-child(2) {
   width: 50px;
   height: 50px;
   margin-left: 15px;
-  background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/83067-200.png");
+  background-image: url("https://icon-library.com/images/debug-icon/debug-icon-15.jpg");
   background-position: center;
   background-size: 75% 75%;
   background-repeat: no-repeat;
@@ -1273,7 +1309,7 @@ footer p:nth-child(2) {
   width: 50px;
   height: 50px;
   margin-left: 15px;
-  background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/53209-200.png");
+  background-image: url("https://static.thenounproject.com/png/1587300-200.png");
   background-position: center;
   background-size: 75% 75%;
   background-repeat: no-repeat;
@@ -1285,7 +1321,7 @@ footer p:nth-child(2) {
   width: 50px;
   height: 50px;
   margin-left: 15px;
-  background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
+  background-image: url("https://static.thenounproject.com/png/2521540-200.png");
   background-position: center;
   background-size: 75% 75%;
   background-repeat: no-repeat;
@@ -1297,16 +1333,30 @@ footer p:nth-child(2) {
   width: 50px;
   height: 50px;
   margin-left: 15px;
-  background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
+  background-image: url("https://static.thenounproject.com/png/1542385-200.png");
   background-position: center;
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
+
+
+.A1features #scene #left-zone .list li.item input[type="radio"] ~ label.label_speed:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  background-image: url("https://static.thenounproject.com/png/992108-200.png");
+  background-position: center;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+}
+
 .A1features #scene #left-zone .list li.item input[type="radio"] ~ .content {
   position: absolute;
   left: 350px;
   top: -400px;
-  width: 650px;
   height: 400px;
   -webkit-animation-duration: 0.75s;
           animation-duration: 0.75s;
@@ -1327,7 +1377,7 @@ footer p:nth-child(2) {
 .A1features #scene #left-zone .list li.item input[type="radio"] ~ .content.content_strawberry .picto {
   height: 100px;
   width: 100px;
-  background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/83067-200.png");
+  background-image: url("https://icon-library.com/images/debug-icon/debug-icon-15.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1338,7 +1388,7 @@ footer p:nth-child(2) {
 .A1features #scene #left-zone .list li.item input[type="radio"] ~ .content.content_banana .picto {
   height: 100px;
   width: 100px;
-  background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/53209-200.png");
+  background-image: url("https://static.thenounproject.com/png/1587300-200.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1349,7 +1399,7 @@ footer p:nth-child(2) {
 .A1features #scene #left-zone .list li.item input[type="radio"] ~ .content.content_apple .picto {
   height: 100px;
   width: 100px;
-  background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
+  background-image: url("https://static.thenounproject.com/png/2521540-200.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1360,7 +1410,7 @@ footer p:nth-child(2) {
 .A1features #scene #left-zone .list li.item input[type="radio"] ~ .content.content_orange .picto {
   height: 100px;
   width: 100px;
-  background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
+  background-image: url("https://static.thenounproject.com/png/1542385-200.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1368,6 +1418,24 @@ footer p:nth-child(2) {
 .A1features #scene #left-zone .list li.item input[type="radio"] ~ .content.content_orange h1 {
   color: #F27935;
 }
+
+
+.A1features #scene #left-zone .list li.item input[type="radio"] ~ .content.content_speed .picto {
+  height: 100px;
+  width: 100px;
+  background-image: url("https://static.thenounproject.com/png/992108-200.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.A1features #scene #left-zone .list li.item input[type="radio"] ~ .content.content_speed h1 {
+  color: #45f235;
+}
+
+
+
+
+
 .A1features #scene #left-zone .list li.item input[type="radio"] ~ .content h1:first-letter {
   text-transform: uppercase;
 }
@@ -1395,6 +1463,10 @@ footer p:nth-child(2) {
 .A1features #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_orange {
   color: #F27935;
   border-right: solid 4px #F27935;
+}
+.A1features #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_speed {
+  color: #a56b49;
+  border-right: solid 4px #146d7c;
 }
 .A1features #scene #left-zone .list li.item input[type="radio"]:checked ~ .content {
   -webkit-animation-duration: 0.75s;
@@ -1424,7 +1496,7 @@ footer p:nth-child(2) {
 
 
 
-/*------------------------------------/
+/*------------------------------------*/
 
 
 
