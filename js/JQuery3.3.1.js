@@ -17,10 +17,37 @@
 // TextScramble
 // ——————————————————————————————————————————————————
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class TextScramble {
   constructor(el) {
     this.el = el;
-    this.chars = '!<A1>-_\A1\/[A!]{A1}—A1=+*^?#________';
+    this.chars = '!<A1>-_\A1\/[A!]{A1}—A1=+*^?#___A1_____';
     this.update = this.update.bind(this);
   }
   setText(newText) {

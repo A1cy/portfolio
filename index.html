@@ -22,8 +22,8 @@
 	<nav>
 	<!--logo--->
 	
-	<a href="#" class="logo" style="font-family: RoadTest;">
-		<img src="/images/A1 logo v2.1.png" alt=""> </a>
+	<a href="/index.html" class="logo" style="font-family: RoadTest;">
+		<img src="/images/A1 logo v2.3.png" alt=""> </a>
 	<!--menu--------->
 	<div class="toggle"></div>
 	<ul class="menu">
@@ -34,7 +34,7 @@
 	<li><a href="#portfolio-crt">certifications</a></li>
 	<li><a href="#features">features</a></li>		
 		
-	<li><a href="#contact-form">Contact</a></li>	
+	<li><a href="#A1contact">Contact</a></li>	
 	</ul>
 	<!--language-->
 	</nav>
@@ -68,6 +68,8 @@
 	<!--text---------------------->
 	<div class="about-text">
 	<h5 >About Me</h5>
+	<div class="decor"></div>
+
 	<div class="containerx">
 		<p><span class="typed-textx"></span><span class="cursorx">&nbsp;</span></p>
 	</div>
@@ -90,8 +92,10 @@
 	<section id="services">
 	<!--heading-------------->
 	<div class="s-heading">
+
 	<h1>Services</h1>
 	</div>
+	<div class="decor"></div>
 	<!--services-box-container--------->
 	<div class="b-container">
 		
@@ -102,7 +106,7 @@
 		<!--type----------->
 			<div class="s-type">Back-End</div>
 			<!--name------->
-			<img src="images/s12.png">
+			<img src="images/back.png">
 		</div>
 		<!--text----------------->
 		<div class="s-b-text">
@@ -117,7 +121,7 @@
 		<!--type----------->
 		<div class="s-type">Front-End</div>
 		<!--name------->
-		<img src="images/s11.png">
+		<img src="images/front.png">
 	</div>
 	<!--text----------------->
 	<div class="s-b-text">
@@ -131,7 +135,7 @@
 		<!--type----------->
 		<div class="s-type">Design</div>
 		<!--name------->
-		<img src="images/s12x.png">
+		<img src="images/design.png">
 	</div>
 	<!--text----------------->
 	<div class="s-b-text">
@@ -145,6 +149,8 @@
 	<section id="portfolio">
 	<!--heading----------->
 	<h1 class="p-headind">Portfolio</h1>
+	<div class="decor"></div>
+
 	<!--portfolio-container------------>
 	<div class="p-container">
 	<!--portfolio-box-1-------->
@@ -220,6 +226,8 @@
 	<section id="portfolio-crt">
 		<!--heading----------->
 		<h1 class="p-headind-crt"> Certifications </h1>
+		<div class="decor"></div>
+
 		<!--portfolio-container------------>
 		<div class="p-container-crt">
 		<!--portfolio-box-1-------->
@@ -270,6 +278,8 @@
 
 <section id="features">
 	<h1 class="p-headind"> features </h1>
+	<div class="decor"></div>
+
 
 	<div class="A1features">
 
@@ -296,7 +306,7 @@
           <input type="radio" id="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." name="basic_carousel" value="The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus."/>
           <label class="label_apple" for="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus."> Trendy Appearance </label>
           <div class="content content_apple"><span class="picto"></span>
-            <h1>Trendy Appearance</h1>
+            <h1 style="color: #00B16A;">Trendy Appearance</h1>
             <p>Trendy web design elements can attract your target audience to your site. Beautiful and appealing designs enhance website content and establish a good reputation for your brand .</p>
           </div>
         </li>
@@ -328,13 +338,12 @@
 
 
 
-	<!--contact-form------------------->
-<section id="contact-form">
+<section id="A1contact">
 
-<div id="contact-btn">
-	<div>
-		<p>I'm currently <em>available</em></p>
-	</div>
+	<div class="container-con">
+		<h1 class="title-con">Contact Me </h1>
+		<div class="decor"></div>
+
 	<div class="A2">
 	<div class='text'>
 		<div class='content'></div>
@@ -342,41 +351,57 @@
 	</div>
 	</div>
 </div>
+		<form class="iletisim_form" action="https://formspree.io/mzbjvgba" method="POST">
+		<!--No Delete style class :)-->
+			<div class="style"></div>
+		<!--No Delete style class :)-->
+		<div class="sol50">
+			<span>
+				<label for="namesurmane">Name Surname</label>
+				<input type="text" name="namesurmane" id="namesurmane" required="" data-parsley-required="true" minlength="4">
+			</span>
+		</div>
+		<div class="sag50">
+			<span>
+				<label for="email">Email</label>
+				<input type="email" name="_replyto" id="email"  type="email" required="" data-parsley-required="true" data-parsley-type="email">
+			</span>
+		</div>
+		<div class="sol50">
+			<span>
+				<label for="subject">Subject</label>
+				<input type="text" name="subject" id="subject">
+			</span>
+		</div>
+		<div class="sag50">
+			<span>
+				<label for="denetleme">5+5-5=?</label>
+				<input type="text" name="denetleme" id="denetleme">
+			</span>
+		</div>
+		<div class="full100">
+			<span>
+				<label for="messenger">Messenger</label>
+				<textarea name="messenger" id="messenger" name="messege" required="" data-parsley-required="true" minlength="10" spellcheck="false"></textarea>
+			</span>
+		</div>
+		<div class="full100">
+			<span>
+				<button  type="submit" value="send">Send <i class="fas fa-mail-bulk"></i></button>
+			</span>
+		</div>
+		</form>
+	</div>
+</section>
 
-	<form action="https://formspree.io/mzbjvgba" method="POST">
-	<!--left--------------------------------------->
-	<div class="contact-left">
-	<h1 class="c-l-heading"><font style="border-bottom: 3px solid #9481ff;">Contact</font> me</h1>
-	<!--name-------->
-	<div class="f-name">
-	<font>Name</font>
-	<input name="fullName" type="text" class="input is-medium" placeholder="Your name please" required="" data-parsley-required="true" minlength="4"/>
-	</div>
-	<!--email-------->
-	<div class="f-email">
-	<font>Email</font>
-	<input name="_replyto" type="email" class="input is-medium" placeholder="A1@example.com" required="" data-parsley-required="true" data-parsley-type="email"/>
-	</div>
-	</div>
-	<!--right------------------------------------------->
-	<div class="contact-right">
-	<!--message-------->
-	<div class="message">
-	<font >Message</font>
-	<textarea name="messege" class="textarea is-medium" required="" data-parsley-required="true" minlength="10" spellcheck="false" rows="5" cols="20" placeholder="Write Message..."></textarea>
-	</div>
-	<!--submit-btn------------>
-	<button type="submit" value="send">submit <i class="fas fa-mail-bulk"></i></button>
-	</div>
-		
-	</form>
-	
-	</section>
-	
+
+
+
+	<!--contact-form------------------->
 	<footer>
      
 		<p>
-			<a href="#" class="logo" style="font-family: RoadTest;">
+			<a href="/index.html" class="logo" style="font-family: RoadTest;">
 				<img src="/images/A1 logo v2.1.png" alt=""> </a>
 		</p>
 		<p>Knowledge <i class="fas fa-lightbulb"></i> Power <i class="fas fa-sun"></i> Indepedence <i class="fas fa-key"></i><br> Freedom <i class="fas fa-crown"></i> Great Life <i class="fas fa-star"></i></p>
@@ -449,7 +474,7 @@ $(".btn-with-icon").on("click", function() {
   });
 
   app = {
-    text: "If you have a project that you want to get started with, think you need help with something or just fancy saying hey, then get in touch.",
+    text: "I'm currently available !! If you have a project that you want to get started with, think you need help with something or just fancy saying hey, then get in touch.",
     index: 0,
     chars: 0,
     speed: 100,
@@ -475,6 +500,20 @@ $(".btn-with-icon").on("click", function() {
 //# sourceURL=coffeescript
 
 
+
+$(".iletisim_form input,.iletisim_form textarea").focus(function() {
+	$(".iletisim_form label[for='" + this.id + "']").attr("style","padding-left:0px;top:0px;font-size: 11px;");
+	$(this).parent().parent().addClass(this.id);
+	$(".style").html("<style>div."+this.id+" span:before{width:100%;}</style>");
+}).blur(function() {
+	$(".style").html("<style>div."+this.id+" span:before{width:0%;}</style>");
+	if($(this).val() == ""){
+		$(".iletisim_form label[for='" + this.id + "']").attr("style","padding-left:15px;top:38px;font-size: 14px;");
+		$(".style").html("<style>div."+this.id+" span:before{width:100%;border-bottom: 2px solid rgba(249, 52, 52, 1);}</style>");
+	}else{
+		$(".style").html("<style>div."+this.id+" span:before{width:100%;border-bottom: 2px solid rgba(40, 226, 19, 1);}</style>");
+	}
+});
 	</script>
 </body>
 </html>
