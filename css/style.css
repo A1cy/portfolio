@@ -33,7 +33,7 @@ a{
 	box-sizing: border-box;
 	background-position: right bottom;
 	background-repeat: no-repeat;
-	background-image: url("../images/A1bgV31.png");
+	background-image: url("../images/bg.png");
 	background-color: #edf1fd;
 }
 nav{
@@ -758,7 +758,7 @@ nav{
 		height:400px;
 	}
 	.about-text h5 {
-		font-size: 4.0rem !important;
+		font-size: 3.6rem !important;
 		display: block; 
  }
 
@@ -912,7 +912,7 @@ footer {
   justify-content: center;
   align-items: center;
 	position: relative;
-	background: url(/images/country-quilt-dark.png);
+	background: url(/images/dark.png);
 	font-weight: 100 !important;
 }
 footer p {
@@ -1480,7 +1480,8 @@ padding: 60px 2% 120px 2%;;
 	color:rgba(0,0,0,0.9);
 	transition:300ms;
   font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+		font-size: 20px;
+		text-transform: uppercase;
 	border-bottom: 1px solid rgba(0,0,0,0.3);
     margin-top: 15px;
     cursor: pointer;
@@ -1535,7 +1536,7 @@ padding: 60px 2% 120px 2%;;
 }
 
 #A1contact{
-	background-image: url(/images/country-quilt-dark.png);
+	background-image: url(/images/dark.png);
 	width:100%;
 	box-sizing: border-box;
 	font-family: calibri;
@@ -1619,7 +1620,11 @@ a:hover {
 }
 
 
-
+.btn-5:hover {
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, .2);
+	text-shadow: 1px 1px 2px #292929; 
+	color: #d7ddd7;
+}
 
 html, body{
   width: 100%;
