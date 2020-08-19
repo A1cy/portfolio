@@ -911,7 +911,7 @@ em {font-family: -webkit-pictograph; font-weight: lighter;}
 	width: 90%;
 }
 .about-text h4{
-	font-size:1.7rem !important;
+	font-size:1.6rem !important;
 }
 
 
@@ -920,8 +920,8 @@ em {font-family: -webkit-pictograph; font-weight: lighter;}
 	width: 450px !important;
 	font-weight: 500;
 	position: absolute;
-	left: 17%;
-	top: 40%;
+	left: 20%;
+	top: 33%;
 	transform: translate(-20%,-65%);
 	 }
 	 

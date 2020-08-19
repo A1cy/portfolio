@@ -20,9 +20,9 @@
 const typedTextSpan = document.querySelector(".typed-textx");
 const cursorSpan = document.querySelector(".cursorx");
 
-const textArray = [ "A1", "a Web Developer", "a Designer" , "the one, i'm the one!" ];
+const textArray = [ "it's A1", "I'm a Web Developer", "a Designer" , "& a Tech-Savvy!" ];
 const typingDelay = 100;
-const erasingDelay = 70;
+const erasingDelay = 40;
 const newTextDelay = 1500; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
@@ -51,7 +51,7 @@ function erase() {
     cursorSpan.classList.remove("typingx");
     textArrayIndex++;
     if(textArrayIndex>=textArray.length) textArrayIndex=0;
-    setTimeout(type, typingDelay + 1100);
+    setTimeout(type, typingDelay + 100);
   }
 }
 
