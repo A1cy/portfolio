@@ -130,10 +130,10 @@ nav{
 .about-text{
 	font-family: calibri;
 	width: 50%;
+	text-align: center;
 }
 .about-text h5{
-	font-size: 5.3rem !important;
-	width: 500px;
+	font-size: 4.0rem !important;
 }
 h5{
 	
@@ -153,13 +153,15 @@ h5{
 	font-weight: 400;
 }
 .about-text h5,h4{
+	text-align: center;
 	margin: 5px !important;
 	padding: 0px;
 }
 .about-text p{
 	font-size: 1.2rem;
-	text-align: justify;
+	text-align: center;
 	margin: 0px 12px;
+	text-transform: capitalize;
 
   background: -webkit-linear-gradient(#757F9A, #D7DDE8);
   -webkit-background-clip: text;
@@ -903,7 +905,7 @@ em {font-family: -webkit-pictograph; font-weight: lighter;}
 		height:400px;
 	}
 	.about-text h5 {
-		font-size: 4.3rem !important;
+		font-size: 4.0rem !important;
 		display: block; 
  }
 
@@ -925,10 +927,7 @@ em {font-family: -webkit-pictograph; font-weight: lighter;}
 	top: 33%;
 	transform: translate(-20%,-65%);
 	 }
-	 
-.containerx p {
-	width: 350px !important;
- }
+
 
  #contact-btn p {
 	font-size: 1.5rem;
@@ -1007,17 +1006,18 @@ em {font-family: -webkit-pictograph; font-weight: lighter;}
 
 .containerx {
 	align-items: center;
+	left: 20%;
+
 	
 
 }
 .containerx p {
 	font-size: 2.0rem !important;
-	padding: 1.4rem;
 	font-weight: bold !important;
 	letter-spacing: 0.1rem;
 	text-align: center;
 	overflow: hidden;
-	width: 470px;
+
 	
 }
 .containerx p span.typed-textx {
@@ -1028,7 +1028,6 @@ em {font-family: -webkit-pictograph; font-weight: lighter;}
 .containerx p span.cursorx {
   display: inline-block;
   background-color: #ccc;
-  margin-left: 0.1rem;
   width: 3px;
   animation: blink 1s infinite;
 }
@@ -1538,6 +1537,25 @@ padding: 60px 2% 120px 2%;;
 
 
 
+
+.A1container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.A1text {
+	text-transform: capitalize;
+  font-size: 2rem;
+  background:url('https://media.giphy.com/media/3oz8xZ1t7hxPfe19M4/giphy.gif') center center no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+	
+.dud {
+  color: #757575;
+}
 
 
 
