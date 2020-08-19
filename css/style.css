@@ -471,8 +471,8 @@ width: 100%;
 	color:#757F9A;
 	font-weight: 400;
 	letter-spacing: 2px;
-	margin-bottom: 0px !important;
-	border-radius: 3px;
+	margin: 0px !important;
+  border-radius: 3px;
 	box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
 	
 }
@@ -541,6 +541,7 @@ em {font-family: -webkit-pictograph; font-weight: lighter;}
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 30px 0px 50px 0px;
 	background: url(/images/country-quilt-dark.png);
 
 	
@@ -928,6 +929,14 @@ em {font-family: -webkit-pictograph; font-weight: lighter;}
 .containerx p {
 	width: 350px !important;
  }
+
+ #contact-btn p {
+	font-size: 1.5rem;
+ }
+ .text{
+	font-size: 0.5rem !important;
+	margin: 0px auto auto auto;
+ }
 }
 
 
@@ -1050,7 +1059,7 @@ html, body{
 
 
 footer {
-  height: 150px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
