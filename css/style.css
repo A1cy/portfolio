@@ -134,6 +134,18 @@ nav{
 }
 .about-text h5{
 	font-size: 4.0rem !important;
+	margin: 0px;
+	font-family: calibri;
+	text-align: center;
+	background: -webkit-linear-gradient(#757F9A, #D7DDE8);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 10px 20px;
+	background-color: #292929;
+	letter-spacing: 2px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+	text-transform: uppercase;
 }
 h5{
 	
@@ -141,7 +153,6 @@ h5{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-	background: -wibkit-linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
 }
 
 
@@ -198,8 +209,10 @@ h5{
 	font-family: calibri;
 	font-size: 1.7rem;
 	text-align: center;
-	color:#757F9A;
-	font-weight: 400;
+
+	background: -webkit-linear-gradient(#757F9A, #D7DDE8);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 	
 	padding: 10px 20px;
 	background-color: #292929;
 	letter-spacing: 2px;
@@ -249,7 +262,8 @@ h5{
 	margin: 0px;
 	background: -webkit-linear-gradient(#757F9A, #D7DDE8);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;	font-size: 1.2rem;
+	-webkit-text-fill-color: transparent;	
+	font-size: 1.2rem;
 	font-family: calibri;
 	display: block;
     display: -webkit-box;
@@ -296,8 +310,10 @@ h5{
 	font-family: calibri;
 	font-size: 1.7rem;
 	text-align: center;
-	color:#757F9A;
-	font-weight: 400;
+
+	background: -webkit-linear-gradient(#757F9A, #D7DDE8);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 	
 	padding: 10px 20px;
 	background-color: #292929;
 	letter-spacing: 2px;
@@ -384,8 +400,10 @@ width: 100%;
 	font-family: calibri;
 	font-size: 1.7rem;
 	text-align: center;
-	color:#757F9A;
-	font-weight: 400;
+
+	background: -webkit-linear-gradient(#757F9A, #D7DDE8);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 	
 	padding: 10px 20px;
 	background-color: #292929;
 	letter-spacing: 2px;
@@ -482,7 +500,6 @@ width: 100%;
 		flex-wrap: wrap;
 	}
 	.s-box{
-		flex-grow: 1;
 	}
 	.s-b-img img{
 		object-fit:cover;
@@ -672,7 +689,22 @@ width: 100%;
 
 
 @media(max-width:600px){
+	
+.a-social-b a {
+    width: 25px !important;
+		height: 25px !important;
+    margin: 5px !important;
 
+    border-radius: 3px !important;
+ }
+
+nav{
+		padding: 0px 15px;
+
+	}
+	#main .logo img {
+		height: 34px !important;
+	}
 	
 	.A1features #scene {
 		width: 351px !important;
@@ -749,7 +781,7 @@ width: 100%;
  }
 
  .text{
-	font-size: 0.5rem !important;
+	font-size: 0.7rem !important;
 	margin: 0px auto auto auto;
  }
 }
@@ -874,16 +906,18 @@ html, body{
 
 
 footer {
-  height: 250px;
+  height: 160px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 	position: relative;
 	background: url(/images/country-quilt-dark.png);
-
+	font-weight: 100 !important;
 }
 footer p {
+	font-weight: 100 !important;
+
 	margin: 0px;
 
   font-family: "Maven Pro", "abel", "ROBOTO" , -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -1070,7 +1104,6 @@ padding: 60px 2% 120px 2%;;
   }
 }
 .A1features {
-	background-color: #D7DDE8;
 	height: 60.5vh;
   font-family: "Tahoma";
   -moz-user-select: none;
@@ -1533,12 +1566,19 @@ padding: 60px 2% 120px 2%;;
 }
 .title-con{
 
+	margin: 0px;
+	font-family: calibri;
+	font-size: 1.7rem;
+	text-align: center;
+
 	background: -webkit-linear-gradient(#757F9A, #D7DDE8);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;	font-family: calibri;  font-size:40px;
-  text-align:center;
-  position:relative;
-	margin:0px;
+	-webkit-text-fill-color: transparent; 	
+	padding: 10px 20px;
+	background-color: #292929;
+	letter-spacing: 2px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
 	text-transform: uppercase;
 
 
@@ -1564,10 +1604,19 @@ padding: 60px 2% 120px 2%;;
 }
 
 
+.links {
+	cursor: pointer;
+	a:hover : #fff
+}
 
-
-
-
+a:hover {
+  color: red;
+}
+	.links:hover {
+    -webkit-animation: shake 1s;
+		animation: shake 1s;
+		color: #D7DDE8;
+}
 
 
 
