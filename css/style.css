@@ -398,7 +398,7 @@ p {
 }
 .p-container-crt {
   width: 60%;
-  height: 70vh;
+  height: 120vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
