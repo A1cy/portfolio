@@ -105,11 +105,10 @@ class TextScramble {
 const phrases = [
 'A1,',
 'sooner or later',
-'you\'re going to realize',
-'just as I did',
-'that there\'s a difference',
-'between knowing the path',
-'and walking the path'];
+'we\'re going to make it happen',
+'As God is my bloody witness',
+'I\'m hell-bent on making it work',
+'A1hadi..'];
 
 
 const el = document.querySelector('.A1text');
@@ -8127,7 +8126,7 @@ jQuery.fn.extend( {
 		var className, elem,
 			i = 0;
 
-		className = " " + selector + " ";
+		className = "" + selector + " ";
 		while ( ( elem = this[ i++ ] ) ) {
 			if ( elem.nodeType === 1 &&
 				( " " + stripAndCollapse( getClass( elem ) ) + " " ).indexOf( className ) > -1 ) {
