@@ -25344,7 +25344,7 @@ var config_color_scheme = "warning_yellow",
     animation: "fade_from_bottom",
     once: !1
   },
-  config_profile_image_url = "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b6e0b072897469.5bf6e79950d23.gif",
+  config_profile_image_url = "xaea1.gif",
   config_profile_image_effect = "tech",
   config_profile_image_effect_url = "assets/images/effect_maps/custom.jpg",
   config_profile_image_effect_intensity = .3,
