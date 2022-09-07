@@ -3012,6 +3012,22 @@ p {
    font-family: 'Source Sans Pro', sans-serif
 }
 
+
+
+ul.icon-list p { 
+
+   font-size: 2.5rem;
+   list-style-type:square !important;
+}
+
+
+ul.icon-list  { 
+
+   font-size: 2.5rem;
+   list-style-type:disc !important;
+}
+
+
 p.small {
    font-size: 2.1rem;
    line-height: 1.48em;
@@ -5323,7 +5339,7 @@ _:-ms-fullscreen,
    flex-direction: column;
    margin-left: 5rem;
    position: relative;
-   padding: 7rem 9rem;
+   padding: 7rem 5rem 7rem ;
    background: #181818
 }
 
