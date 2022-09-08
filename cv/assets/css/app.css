@@ -4700,6 +4700,7 @@ _:-ms-fullscreen,
 }
 
 .open-options-panel {
+   display: none;
    position: fixed;
    left: 0;
    top: 10rem;
