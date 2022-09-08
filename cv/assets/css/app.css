@@ -6032,6 +6032,12 @@ _:-ms-fullscreen,
    color: #ff6f1e !important
 }
 
+
+.A-one{
+   color: #fff !important
+}
+
+
 .colors_dreamy_turquoise .c_cursor_inner,
 .colors_dreamy_turquoise .m-menu-button:hover .burger .line {
    background: #0bc5fc !important
@@ -6230,7 +6236,7 @@ animation:rotate 4s infinite linear}
   .axis.vertical{top:-145px;left:4px;height:300px;width:1px}
 
   .axis::before,
-  .axis::after{width:9px;height:9px;background:#7f8c8d;border-radius:100%}
+  .axis::after{width:9px;height:9px;background:#7f8c8d00;border-radius:100%}
   .axis::before{top:-4px;left:-4px;}
   .axis::after{bottom:-4px;right:-4px}
 
