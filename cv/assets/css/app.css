@@ -3020,11 +3020,13 @@ ul.icon-list p {
    list-style-type:square !important;
 }
 
+ul li  p:hover {
+   color: rgb(224, 224, 224);
+ }
 
 ul.icon-list  { 
 
    font-size: 2.5rem;
-   list-style-type:disc !important;
 }
 
 
@@ -3140,13 +3142,19 @@ button .button-text {
 ul.default-list {
    list-style: none;
    padding: 0;
-   margin: 0
+   margin: 0;
+   list-style-position: inside;
+   
 }
 
 ul.default-list li {
    font-size: 2.1rem;
    line-height: 6.5rem
 }
+
+
+
+
 
 ul.icon-list p,
 ul.icon-list span {
@@ -3156,6 +3164,8 @@ ul.icon-list span {
 ul.icon-list span {
    margin-right: 1.8rem
 }
+
+
 
 ul.icon-list.icon-filled span {
    background: #181818;
@@ -5374,6 +5384,33 @@ _:-ms-fullscreen,
    height: 3.6rem;
    background: inherit
 }
+
+
+
+.resume .mhg:before {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 20%;
+   z-index: 11;
+   -webkit-transform: translate(-50%, -50%) rotate(45deg);
+   -ms-transform: translate(-50%, -50%) rotate(45deg);
+   transform: translate(-50%, -50%) rotate(45deg);
+   -webkit-transform-origin: center center;
+   -ms-transform-origin: center center;
+   transform-origin: center center;
+   width: 3.6rem;
+   height: 3.6rem;
+   background: inherit;
+   border: 2px solid #006db679;
+   border-style: solid;
+   border-right: #006db6;
+   border-top: #006db6;
+}
+
+
+
+
 
 .pricing-item {
    padding: 5rem 7rem !important
