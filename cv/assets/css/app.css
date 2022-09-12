@@ -3069,17 +3069,17 @@ span {
 
 ::-moz-selection {
    background: 0 0;
-   color: #000598
+   color: #0bc5fc
 }
 
 ::selection {
    background: 0 0;
-   color: #000598
+   color: #0bc5fc
 }
 
 ::-moz-selection {
    background: 0 0;
-   color: #000598
+   color: #0bc5fc
 }
 
 img,
@@ -3563,7 +3563,7 @@ textarea:-webkit-autofill:hover {
    bottom: 0;
    right: 0;
    position: absolute;
-   border: 1px solid #000598;
+   border: 1px solid #0bc5fc;
    z-index: 1000;
    border-radius: 100%;
    pointer-events: none
@@ -3573,7 +3573,7 @@ textarea:-webkit-autofill:hover {
    width: 0;
    height: 0;
    position: absolute;
-   border: 1px solid #000598;
+   border: 1px solid #0bc5fc;
    z-index: 1000;
    top: 50%;
    left: 50%;
@@ -3593,7 +3593,7 @@ textarea:-webkit-autofill:hover {
    z-index: 1000;
    top: 0;
    left: 0;
-   background: #000598;
+   background: #0bc5fc;
    border-radius: 100%;
    pointer-events: none
 }
@@ -3700,7 +3700,7 @@ textarea:-webkit-autofill:hover {
 }
 
 .m-menu-button:hover .burger .line {
-   background: #000598
+   background: #0bc5fc
 }
 
 .m-menu-button .burger .line:last-child {
@@ -3828,7 +3828,7 @@ textarea:-webkit-autofill:hover {
 
 .m-menu .m-menu-inner .main-items a.is-active p,
 .m-menu .m-menu-inner .main-items li:hover p {
-   color: #000598
+   color: #0bc5fc
 }
 
 .m-menu .m-menu-inner .social-items {
@@ -3864,7 +3864,7 @@ textarea:-webkit-autofill:hover {
 }
 
 .m-menu .m-menu-inner .social-items a:hover span {
-   color: #000598
+   color: #0bc5fc
 }
 
 .menu-overlay {
@@ -5036,7 +5036,7 @@ _:-ms-fullscreen,
 }
 
 .glightbox-container .gbtn:hover span {
-   color: #000598
+   color: #0bc5fc
 }
 
 .glightbox-container .gbtn span:after {
@@ -5956,21 +5956,21 @@ _:-ms-fullscreen,
 
 .colors_warning_yellow .c_cursor_inner,
 .colors_warning_yellow .m-menu-button:hover .burger .line {
-   background: #000598 !important
+   background: #0bc5fc !important
 }
 
 .colors_warning_yellow .c_cursor_outer .bg,
 .colors_warning_yellow .c_cursor_outer .circle,
 .colors_warning_yellow .m-menu .m-menu-inner .main-items>li a.is-active span:after {
-   border-color: #000598 !important
+   border-color: #0bc5fc !important
 }
 
 .colors_warning_yellow ::selection {
-   color: #000361 !important
+   color: #0bc5fc !important
 }
 
 .colors_warning_yellow ::-moz-selection {
-   color: #000598 !important
+   color: #0bc5fc !important
 }
 
 .colors_warning_yellow .glightbox-container .gbtn:hover span,
@@ -5980,26 +5980,26 @@ _:-ms-fullscreen,
 .colors_warning_yellow .m-menu .m-menu-inner .main-items>li a:hover span,
 .colors_warning_yellow .m-menu .m-menu-inner .social-items a:hover span,
 .colors_warning_yellow .options-panel .close-button:hover {
-   color: #000598 !important
+   color: #0bc5fc !important
 }
 
 .colors_future_blue .c_cursor_inner,
 .colors_future_blue .m-menu-button:hover .burger .line {
-   background: #1338f3 !important
+   background: #0bc5fc !important
 }
 
 .colors_future_blue .c_cursor_outer .bg,
 .colors_future_blue .c_cursor_outer .circle,
 .colors_future_blue .m-menu .m-menu-inner .main-items>li a.is-active span:after {
-   border-color: #1338f3 !important
+   border-color: #0bc5fc !important
 }
 
 .colors_future_blue ::selection {
-   color: #1338f3 !important
+   color: #0bc5fc !important
 }
 
 .colors_future_blue ::-moz-selection {
-   color: #1338f3 !important
+   color: #0bc5fc !important
 }
 
 .colors_future_blue .glightbox-container .gbtn:hover span,
@@ -6009,7 +6009,7 @@ _:-ms-fullscreen,
 .colors_future_blue .m-menu .m-menu-inner .main-items>li a:hover span,
 .colors_future_blue .m-menu .m-menu-inner .social-items a:hover span,
 .colors_future_blue .options-panel .close-button:hover {
-   color: #1338f3 !important
+   color: #0bc5fc !important
 }
 
 .colors_dynamic_red .c_cursor_inner,
