@@ -5652,8 +5652,8 @@ _:-ms-fullscreen,
 
 .image-carousel .item {
    height: inherit;
-   background-size: cover;
-   background-position: center;
+   background-size: cover !important;
+   background-position: center !important;
    background-repeat: no-repeat
 }
 

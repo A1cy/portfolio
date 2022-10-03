@@ -25522,7 +25522,7 @@ function carousel_setup() {
     fade: !0,
     cssEase: "ease"
   }), $(".image-carousel").slick({
-    dots: !1,
+    dots: !0,
     infinite: !1,
     speed: 350,
     centerMode: !0,
