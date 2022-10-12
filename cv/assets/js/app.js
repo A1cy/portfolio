@@ -25332,7 +25332,7 @@ function isIpadOS() {
 }));
 
 var config_color_scheme = "warning_yellow",
-  config_scroll_bar = "bar",
+  config_scroll_bar = "progress",
   config_cursor_mode = "cursor_2",
   config_smooth_page_scroll_intensity = 1,
   config_smooth_page_scroll_intensity_mobile = 0,
@@ -25344,7 +25344,7 @@ var config_color_scheme = "warning_yellow",
     animation: "fade_from_bottom",
     once: !1
   },
-  config_profile_image_url = "assets/images/prof-6.jpg",
+  config_profile_image_url = "assets/images/prof-6.jpeg",
   config_profile_image_effect = "tech",
   config_profile_image_effect_url = "assets/images/effect_maps/custom.jpg",
   config_profile_image_effect_intensity = .3,
