@@ -6290,3 +6290,9 @@ animation:rotate 4s infinite linear}
 
 @keyframes counterRotate { to{transform: rotate(-360deg)} }
 @keyframes rotate { to{transform: rotate(360deg)} }
+
+.a1cy-card { 
+text-align: center;
+width: -webkit-fill-available!important;
+width: 200px !important;
+}
