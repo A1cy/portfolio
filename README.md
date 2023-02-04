@@ -1,16 +1,16 @@
 
-<!--  https://a1hub.github.io/portfolio/  -->
+<!--  https://a1cy.github.io/portfolio/  -->
 <p align="center">
  
 </p align="center">
-<img src="https://github.com/a1hub/readme/images/header.png" />
+<img src="https://github.com/a1cy/readme/images/header.png" />
 
 <p align="center">
  
- <img src="https://badges.pufler.dev/visits/a1hub/a1hub"/> 
- <!-- <img src="https://badges.pufler.dev/years/a1hub"/> -->
- <img src="https://badges.pufler.dev/repos/a1hub"/>
- <img src="https://badges.pufler.dev/commits/monthly/a1hub" />
+ <img src="https://badges.pufler.dev/visits/a1cy/a1cy"/> 
+ <!-- <img src="https://badges.pufler.dev/years/a1cy"/> -->
+ <img src="https://badges.pufler.dev/repos/a1cy"/>
+ <img src="https://badges.pufler.dev/commits/monthly/a1cy" />
 
 </p>
 
@@ -18,7 +18,7 @@
   I'm a 3rd year student pursuing Master's in Computer Applications 🎓 from Guru Gobind Singh Indraprastha University 🏛. I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. Apart from that I also love to guide and mentor newbies👨🏻‍💻. I'm deep into Web 🕸️ Development.
 </p>   -->
 
-<h2 align="center">Technology Stack <img src="https://github.com/a1hub/a1hub/blob/main/images/laptop.gif" width="50"></h2>
+<h2 align="center">Technology Stack <img src="https://github.com/a1cy/a1cy/blob/main/images/laptop.gif" width="50"></h2>
 
 <p align="center">
  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/>
@@ -57,7 +57,7 @@
   My Contribution Graph <img src="https://media.giphy.com/media/xUA7aZeLE2e0P7Znz2/giphy.gif" width="50">
 </h2>
 <p align="center">
-  <img src="https://github.com/a1hub/a1hub/raw/output/github-contribution-grid-snake.svg" alt="snake"></center>
+  <img src="https://github.com/a1cy/a1cy/raw/output/github-contribution-grid-snake.svg" alt="snake">
 </p>
 
 <h2 align="center">
@@ -67,15 +67,15 @@
 <br>
 
 <p align = "center">
-  <img  src = "https://github-readme-stats.vercel.app/api?username=a1hub&show_icons=true&theme=radical&line_height=27">
-  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=a1hub&hide=html,css,java,shaderlab,kotlin,hlsl&theme=radical">
+  <img  src = "https://github-readme-stats.vercel.app/api?username=a1cy&show_icons=true&theme=radical&line_height=27">
+  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=a1cy&hide=html,css,java,shaderlab,kotlin,hlsl&theme=radical">
 </p>
 
 <p align = "center">
- <img  src="https://github-readme-streak-stats.herokuapp.com/?user=a1hub&show_icons=true&locale=en&layout=compact&theme=radical&line_height=0" />
+ <img  src="https://github-readme-streak-stats.herokuapp.com/?user=a1cy&show_icons=true&locale=en&layout=compact&theme=radical&line_height=0" />
 </p> 
 
 <p align = "center">
- <img src="https://activity-graph.herokuapp.com/graph?username=a1hub&theme=redical">
+ <img src="https://activity-graph.herokuapp.com/graph?username=a1cy&theme=redical">
 </p> 
 <hr>
