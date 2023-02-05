@@ -2,7 +2,7 @@
   "name": "Aihadi",
   "private": true,
   "version": "0.0.0",
-  "description": "A1hadix",
+  "description": "Mind-mate",
   "type": "module",
   "scripts": {
     "server": "nodemon server"
