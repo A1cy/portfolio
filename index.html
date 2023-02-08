@@ -73,19 +73,43 @@
   </header>
   <main class="btn-tree">
      <button class="btn-link" onclick="location.href='https://www.A1hadi.com/ai/'"> AI  </button>
-      <button class="btn-link" onclick="location.href='https://www.A1hadi.com/cv/'"> Rasume </button>
-      <button class="btn-link" onclick="location.href='https://www.A1hadi.com/soon/'"> Coming soon </button>
+      <button class="btn-link" onclick="location.href='https://www.A1hadi.com/cv/'"> Portfolio </button>
+      <!-- <button class="btn-link" onclick="location.href='https://www.A1hadi.com/soon/'"> 
+        Coming soon
+       </button> -->
+ 
+       <button class="btn-link" id="countdown">
+        Coming soon
+     </button>
 
       <!-- <button class="btn-link ngocok" onclick="location.href=''">YouTube Chaneel</button>
-      <button class="btn-link" onclick="location.href=''">Twitter</button>
+      <button class="btn-link" onclick="location.href='https://twitter.com/A1hady'">Twitter</button>
       <button class="btn-link btn-feneo" onclick="location.href=''">Facebook</button>
       <button class="btn-link" onclick="location.href=''">Instagram</button> -->
   </main>
-  <footer>
+  <!-- <footer>
     by <a href="https://www.A1hadi.com/">A1</a>
-  </footer>
+  </footer> -->
 </div>
 <!-- partial -->
+
+<script>
+  const countdown = document.getElementById("countdown");
+  const currentDate = new Date();
+  const nextYear = new Date(currentDate.getFullYear() + 1, 0, 1);
+
+  setInterval(function() {
+    const now = new Date();
+    const distance = nextYear - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    countdown.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  }, 1000);
+</script>
   
 </body>
 </html>
