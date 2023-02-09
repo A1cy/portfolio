@@ -113,15 +113,15 @@ const handleSubmit = async (e) => {
 
   if (response.ok) {
     const data = await response.json();
-    const parsedData = data.bot.trim(); // trims any trailing spaces/'\n'
-
+    const parsedData = data.message.trim();
+  
     typeText(messageDiv, parsedData);
     // send the data to the server for storage
     const logData = {
       userInput: data.get("prompt"),
       botResponse: parsedData,
     };
-
+  
     await fetch("https://mmate.onrender.com/log", {
       method: "POST",
       headers: {
@@ -129,7 +129,8 @@ const handleSubmit = async (e) => {
       },
       body: JSON.stringify(logData),
     });
-  } else {
+  }
+  else {
     const err = await response.text();
 
     messageDiv.innerHTML = "Something went wrong";
